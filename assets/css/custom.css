@@ -28,19 +28,37 @@
     font-size: 15px;
     text-align: center;
 }
-#lr-hr {
+
+#about-hr-1 {
     width: 80%;
     border: none;
     border-top: solid 1px rgba(179, 179, 179, 1);
+    margin-bottom: 35px;
 }
 
-#lr-hr::before {
-    content: "世界很大，我很小";
+#about-hr-1::before {
+    content: "世界很大，我很渺小";
     top: -12px;
     position: relative;
     background-color: white;
     padding: 15px;
     color: rgba(179, 179, 179, 1);
+}
+
+#about-hr-2 {
+    width: 80%;
+    border: none;
+    border-top: solid 1px rgba(179, 179, 179, 1);
+    margin-bottom: 35px;
+}
+
+#about-hr-2::before {
+        content: "三天打鱼，两天晒网";
+        top: -12px;
+        position: relative;
+        background-color: white;
+        padding: 15px;
+        color: rgba(179, 179, 179, 1);
 }
 
 .my-txt-0 {
@@ -97,6 +115,13 @@ src: url('../fonts/font-hy/fonts/HYShangWeiXiaoShiHouW.ttf');
     margin: 35px;
     margin-left: 35%;
     line-height: 30px;
+}
+/*居中对齐注释小字*/
+.my-txt-4 {
+    text-align: center;
+    font-size: 10px;
+    line-height: 30px;
+    color: dimgray;
 }
 #about-head-pictere-frame {
     text-align: center;
